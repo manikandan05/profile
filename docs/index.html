@@ -393,6 +393,7 @@
       line-height: 1.6;
       color: #CBD5E1;
       transition: var(--transition-smooth);
+      text-align: left;
     }
 
     .profile-highlight-item:hover {
@@ -1637,20 +1638,71 @@
         </div>
       </div>
 
-      <!-- Unified Career Profile Paragraph (Condensed to 5-6 lines) -->
-      <div class="profile-summary">
-        <p>
-          Senior Software Engineer with <strong>14+ years of hands-on mastery</strong> across React, JavaScript,
-          Node.js, Spring Boot, and REST APIs, building scalable Web Components (Widgets), e-commerce platforms, and
-          mission-critical B2B/B2C solutions with PostgreSQL, MongoDB, and MySQL. Over <strong>4+ years at IBM (UST
-            Aegis Team)</strong>, spearheading <strong>Data Security, Compliance, and DevSecOps
-            automation</strong>—implementing automated DAST/SAST/IAST pipelines while elevating test coverage to
-          <strong>95%</strong>. Architected high-throughput data brokers onboarding <strong>1,400+ products
-            daily</strong> into IBM Concert with zero data loss, while actively contributing in <strong>Rust
-            (granite-cli)</strong> and launching <strong>OpenDataBridge (ODB)</strong>. Formally recognized with the
-          <strong>IBM Level 2 Experienced Certification</strong>, <strong>Eureka Top 10 Award</strong>, authorship of
-          <strong>25+ Dev.to articles</strong>, and cross-team mentorship.
-        </p>
+      <!-- Career Highlights Cards Grid -->
+      <div class="profile-cards-grid"
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 14px; max-width: 960px; margin: 0 auto 24px;">
+
+        <!-- Card 1: Experience & Full Stack Mastery -->
+        <div class="profile-highlight-item">
+          <span class="item-icon" title="Full Stack">💻</span>
+          <div>
+            <span class="item-title">Engineering Mastery:</span>
+            Senior Software Engineer with <strong>14+ years of hands-on mastery</strong> across React, JavaScript,
+            Node.js, Spring Boot, and REST APIs.
+          </div>
+        </div>
+
+        <!-- Card 2: Architecture & Databases -->
+        <div class="profile-highlight-item">
+          <span class="item-icon" title="Architecture & Databases">🏗️</span>
+          <div>
+            <span class="item-title">Solutions Architecture:</span>
+            Building scalable Web Components (Widgets), e-commerce platforms, and mission-critical B2B/B2C solutions
+            with <strong>PostgreSQL</strong>, <strong>MongoDB</strong>, and <strong>MySQL</strong>.
+          </div>
+        </div>
+
+        <!-- Card 3: IBM & DevSecOps -->
+        <div class="profile-highlight-item">
+          <span class="item-icon" title="Security & DevSecOps">🛡️</span>
+          <div>
+            <span class="item-title">IBM & DevSecOps:</span>
+            Over <strong>4+ years at IBM (UST Aegis Team)</strong> spearheading <strong>Data Security, Compliance, and
+              DevSecOps automation</strong>—implementing automated DAST/SAST/IAST pipelines while elevating test
+            coverage to <strong>95%</strong>.
+          </div>
+        </div>
+
+        <!-- Card 4: IBM Concert & Data Brokers -->
+        <div class="profile-highlight-item">
+          <span class="item-icon" title="Data Ingestion & Streaming">⚡</span>
+          <div>
+            <span class="item-title">High-Throughput Ingestion:</span>
+            Architected high-throughput data brokers onboarding <strong>1,400+ products daily</strong> into <strong>IBM
+              Concert</strong> with zero data loss.
+          </div>
+        </div>
+
+        <!-- Card 5: Open Source & Rust -->
+        <div class="profile-highlight-item">
+          <span class="item-icon" title="Open Source & Rust">🦀</span>
+          <div>
+            <span class="item-title">Open Source & Innovation:</span>
+            Actively contributing in <strong>Rust (granite-cli)</strong> and launching <strong>OpenDataBridge
+              (ODB)</strong>.
+          </div>
+        </div>
+
+        <!-- Card 6: Awards, Writing & Leadership -->
+        <div class="profile-highlight-item">
+          <span class="item-icon" title="Awards & Mentorship">🏆</span>
+          <div>
+            <span class="item-title">Recognition & Leadership:</span>
+            Formally recognized with the <strong>IBM Level 2 Experienced Certification</strong>, <strong>Eureka Top 10
+              Award</strong>, authorship of <strong>25+ Dev.to articles</strong>, and cross-team mentorship.
+          </div>
+        </div>
+
       </div>
 
       <!-- Future Career Vision & Aspirations Banner -->
